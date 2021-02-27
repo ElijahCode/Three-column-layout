@@ -6,7 +6,8 @@ module.exports = {
   extends: [
     'airbnb-base',
     "prettier",
-  ],
+    "jest"
+,  ],
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',

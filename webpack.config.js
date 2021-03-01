@@ -1,12 +1,12 @@
-const path = require('path');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require("path");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: './src/index.js',
+  entry: "./src/index.js",
   output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
+    filename: "main.js",
+    path: path.resolve(__dirname, "dist"),
   },
   module: {
     rules: [
@@ -21,15 +21,14 @@ module.exports = {
     compress: true,
     port: 8080,
   },
-  plugins: 
-    [
-        new MiniCssExtractPlugin({
-            filename: '[name].css',
-            chunkFilename: '[id].css',
-        }), 
-        new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, "./index.html"),
-            filename: "index.html",
-        })
-    ]
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: "[name].css",
+      chunkFilename: "[id].css",
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "./index.html"),
+      filename: "index.html",
+    }),
+  ],
 };

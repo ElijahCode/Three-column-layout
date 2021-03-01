@@ -1,0 +1,135 @@
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+}
+
+.navBlock {
+  background-color: hsla(224, 47%, 94%, 1);
+
+  margin-bottom: 15px;
+}
+
+.refImage {
+  display: inline-block;
+}
+
+.refBlock {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  left: 20px;
+}
+
+.reference {
+  display: block;
+  font-size: 14pt;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.mainContent {
+  height: 100%;
+  min-height: 100%;
+
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+}
+
+.leftSectionBlock {
+  background-color: hsla(224, 47%, 94%, 1);
+
+  display: inline-block;
+  vertical-align: top;
+
+  float: left;
+
+  width: 20%;
+  height: 100%;
+}
+
+.mainContentBlock {
+  background-color: hsla(224, 47%, 94%, 1);
+
+  display: inline-block;
+  vertical-align: top;
+
+  float: left;
+  margin: 0% 1% 0% 1%;
+
+  width: 58%;
+  height: 100%;
+}
+
+.rightSectionBlock {
+  background-color: hsla(224, 47%, 94%, 1);
+
+  display: inline-block;
+  vertical-align: top;
+
+  float: right;
+
+  width: 20%;
+  height: 100%;
+}
+
+.footer {
+  background-color: hsla(224, 47%, 94%, 1);
+
+  overflow: hidden;
+
+  padding-bottom: 1px;
+}
+
+.leftSupportBlock {
+  display: inline-block;
+  vertical-align: top;
+
+  float: left;
+
+  width: 20%;
+}
+
+.centralSupportBlock {
+  display: inline-block;
+  vertical-align: top;
+
+  float: left;
+  margin: 0% 1% 0% 1%;
+
+  width: 57%;
+}
+
+.rightSupportBlock {
+  display: inline-block;
+  vertical-align: top;
+
+  float: right;
+
+  width: 20%;
+}
+
+.footerParagraphLeft {
+  display: inline-block;
+
+  vertical-align: top;
+
+  width: 100%;
+}
+
+.footerParagraphCentral {
+  display: inline-block;
+
+  vertical-align: top;
+
+  width: 49%;
+}
+
+.footerParagraphRight {
+  display: inline-block;
+
+  vertical-align: top;
+
+  width: 100%;
+}

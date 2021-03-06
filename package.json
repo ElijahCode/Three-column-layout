@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "test": "jest",
-    "lint": "prettier --check . && eslint .",
-    "lint:fix": "prettier --write . && eslint . --fix"
+    "lint": "prettier --check . && stylelint \"**/*.css\"",
+    "lint:fix": "prettier --write . && stylelint \"**/*.css\" --fix"
   },
   "author": "Ilya Starikov",
   "license": "ISC",
@@ -18,7 +18,9 @@
     "eslint-plugin-import": "^2.22.1",
     "husky": "^4.3.8",
     "lint-staged": "^10.5.4",
-    "prettier": "2.2.1"
+    "prettier": "2.2.1",
+    "stylelint": "^13.11.0",
+    "stylelint-config-standard": "^20.0.0"
   },
   "husky": {
     "hooks": {
